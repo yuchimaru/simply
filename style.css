@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+/* loading */
+#cover {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #ffffff;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+}
+#loader {
+  display: none;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  text-align: center;
+  color: gray;
+  z-index: 10001;
+}
+.circles-loader {
+  z-index: 10002;
+}
+@media (max-width: 767px) {
+  .section-subheading {
+    font-size: 20px;
+  }
+}
+/* navbar */
+.navbar-default {
+  padding: 25px 0;
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  margin-top: -15px;
+  margin-left: 15px;
+  color: #FFFFFF;
+}
+.navbar-right {
+  margin-right: 30px;
+}
+.navbar-default .nav li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:active,
+.navbar-default .nav li a:visited,
+.navbar-default .nav li a:focus {
+  color: #B5B470;
+}
+@media (max-width: 767px) {
+  .navbar-default{
+    padding: 0;
+  }
+  #nav-menus {
+    background-color: black;
+    opacity: 0.88;
+  }
+}
+/* header */
+header {
+  text-align: center;
+  color: #FFFFFF;
+}
+.top-visual {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/top_img_first.jpg);
+  background-position:center center;
+  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+header .header-text {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+header .header-text .main-header-text {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 50px;
+  font-weight: 700px;
+  line-height: 50px;
+}
+header .header-text .sub-header-text {
+  margin-bottom: 25px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+  }
+  .navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #286090;
+  }
+  .mb-brand {
+    display:none;
+  }
+}
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #082640;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 26px;
+    margin-top: 0;
+  }
+  .pc-brand {
+    display: none;
+  }
+}
+/* section 各コンテポーネント */
+section {
+  padding: 100px 0px;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0px;
+  }
+}
+.section-heading {
+  color: #45475D;
+  margin-top: 10px;
+}
+.service-space {
+  margin: 100px auto;
+}
+/* web font */
+.fas:before {
+	font-family: 'FontAwesome' ;
+}
+/* service */
+.service-title {
+  color: #3E3E69;
+}
+.service-detail {
+  color: #3F3F84;
+}
+.service-icon-base:before {
+  font-size: 4em;
+  color: #0174C8 ;
+}
+.first-service-icon:before {
+  content: '\f13c';
+}
+.second-service-icon:before {
+  content: '\f108';
+}
+.third-service-icon:before {
+  content: '\f000';
+}
+
+/* work */
+#work {
+  background-color: #f7f7f7;
+}
+.work-frame {
+  width: auto;
+  height: 300px;
+}
+.work-frame img {
+  height: 300px;
+}
+.work-detail-text {
+  margin: 0 auto;
+  padding: 25px;
+  max-width: auto;
+  text-align: center;
+  background-color: #fff;
+}
+.work-img-thumbnail {
+  width: auto;
+  height: 300px;
+}
+.work-list {
+  margin: 20px auto;
+}
+.work-space {
+  margin: 20px auto;
+}
+.work-text {
+  color: #0D0F73;
+}
+/* about */
+.about-detail-row {
+  margin: 50px;
+}
+.about-detail h3 {
+
+}
+.about-detail h4 {
+
+}
+.about-detail {
+  height: 280px;
+  margin: 10px 0px;
+  text-align: left;
+}
+.about-project-name {
+  position: relative;
+  top: 15px;
+}
+.about-detail .my-name {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.about-detail-info {
+  margin: 35px 5px;
+}
+@media (min-width: 768px) {
+  .work-detail-text {
+    padding: 15px;
+  }
+  .work-space {
+    margin: 10px auto;
+  }
+}
+/* contact */
+#contact {
+  background-color: #f7f7f7;
+  color: #666A6F;
+  padding-top: 100px;
+}
+.contact-form {
+  margin: 50px 0;
+}
+#input_body {
+  height: 255px;
+}
+.b-mail-send {
+  width: 30%;
+  height: 50px;
+  margin: 20px 0;
+}
+.red {
+  color:#F00;
+}
+.gray {
+  color: #847C7C;
+}
+@media (max-width: 768px) {
+  .contact-form {
+    margin: 20px 0;
+  }
+}
+/* footer */
+.footer-top {
+  background-color: #337ab7;
+  color: #f5f5f5;
+}
+.footer-bottom-row {
+    margin: 20px auto;
+}
+.foorer-top {
+  color: #EEEEEE;
+}
+.footer-bottom {
+  background-color: #337ab7;
+  color: #EEEEEE;
+  border-top: 1px solid #5486B1;
+}
+.social-icons, .footer .footer-share {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+.social-icons li, .footer .footer-share li {
+  list-style:none;
+  float: left;
+}
+.social-icons a, .footer .footer-share a {
+  border: 1px solid #e8ecee;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #D9EDF7;
+  display: block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+}
+.social-icons a:hover, .footer .footer-share a:hover {
+  background-color: #7BB6E8;
+  border-color: #75D6E0;
+  color: #fff;
+}
+.accsess-footer {
+  margin-top: 30px;
+  color: #D2D2D2;
+}
+.about-footer {
+  margin-top: 30px;
+  color: #D2D2D2;
+}
+.copy-right {
+  margin: 5px 0;
+  color: #D2D2D2;
+}
+@media (max-width: 991px) {
+  .footer-col {
+    margin-bottom: 20px;
+  }
+}
+/* ページトップ */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80%;
+}
+#page-top a {
+  background: #666;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 25px 0;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+}
+#page-top a:hover {
+  text-decoration: none;
+  background: #999;
+}
