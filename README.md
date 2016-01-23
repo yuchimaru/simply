@@ -17,4 +17,4 @@ bootstrap
 
 ## ■ページイメージ
 
-https://raw.githubusercontent.com/yuchimaru/simply/master/images/simply_responsive.png
+<img src="https://raw.githubusercontent.com/yuchimaru/simply/master/images/simply_responsive.png" alt="top-image">
