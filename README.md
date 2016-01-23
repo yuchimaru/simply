@@ -14,3 +14,7 @@ html/css/javascirpt
 
 cssフレームワーク
 bootstrap
+
+## ■ページイメージ
+
+https://raw.githubusercontent.com/yuchimaru/simply/master/images/simply_responsive.png
